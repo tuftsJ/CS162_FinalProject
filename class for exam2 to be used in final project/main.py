@@ -3,6 +3,11 @@
 from clue import Clue
 
 def main():
+
+    print(" ")
+    print("You found a clue!")
+    print(" ")
+
     # Create clue objects
     key = Clue("Old Rusty Key")
     puzzle_piece = Clue("Corner Puzzle Piece")
