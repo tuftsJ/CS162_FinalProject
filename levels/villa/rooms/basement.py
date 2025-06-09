@@ -7,7 +7,7 @@ class Basement(Room):
         self.room_item = "Golden Locket"
         name = "Basement"
         description = (
-            "A dark, musty basement with wooden crates, a broken lantern, old wine bottles, "
+            "A dark, musty basement with wooden crates, a broken lantern, old wine bottles,\n"
             "and cobweb-covered shelves."
         )
         items = ["wooden crate", "lantern", "wine bottles", "shelves", "old chest"]

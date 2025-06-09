@@ -42,14 +42,16 @@ class Room:
 
 
 class BaseLevel:
-    def __init__(self, name, rooms):
+    def __init__(self, name, intro_paragraph, rooms):
         self.name = name
+        self.intro_paragraph = intro_paragraph
         self.rooms = rooms
         self.collected_items = []
 
     def play(self):
         print(f"\n{self.name}\n")
-        print(f"Welcome to {self.name}. Uncover the clues hidden throughout its eerie rooms.")
+        print(f"Welcome to {self.name}")
+        print(f"{self.intro_paragraph}\n")
 
         for room in self.rooms:
             item = room.play()

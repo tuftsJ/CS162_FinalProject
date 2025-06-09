@@ -7,7 +7,7 @@ class Kitchen(Room):
         self.room_item = "Silver Compass Piece"
         name = "Kitchen"
         description = (
-            "A large kitchen with shining pots, a locked cabinet, a rusty knife block, "
+            "A large kitchen with shining pots, a locked cabinet, a rusty knife block,\n"
             "and a mysterious spice rack."
         )
         items = ["cabinet", "fridge", "knife block", "spice rack", "table"]

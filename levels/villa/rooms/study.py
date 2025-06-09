@@ -7,8 +7,8 @@ class Study(Room):
         self.room_item = "Ancient Key Fragment"
         name = "Study"
         description = (
-            "A quiet room filled with books, a large desk, a painting, and an old globe."
-            " There's a faint smell of old parchment."
+            "A quiet room filled with books, a large desk, a painting, and an old globe.\n"
+            "There's a faint smell of old parchment."
         )
         items = ["desk", "bookshelf", "painting", "globe", "drawer"]
         clues = ["desk", "bookshelf", "painting"]
